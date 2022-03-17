@@ -11,11 +11,11 @@ function Home() {
     <Layout>
       <div>
         {/* Home-Intro-section */}
-        <div className='h-full bg-theme'>
+        <div className='h-full bg-theme md:h-screen'>
           <div className="grid md:grid-cols-1 grid-cols-2 h-full items-center 
           border-4 border-white md:border-0 mx-10 bg-theme 
           transform rotate-12 md:rotate-0">
-            <div className='h-1/2' data-aos="fade-right">
+            <div className='h-1/2 md:h-max md:pt-10' data-aos="fade-right">
               {/* <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_qhrndegx.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop controls autoplay></lottie-player> */}
               <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_kkflmtur.json"
                 background="transparent"
@@ -51,7 +51,7 @@ function Home() {
         {/* React buff-section */}
         <div className='my-20'>
           <div className='text-center h-52 bg-primary'>
-            <h1 className='text-white font-bold text-4xl md:text-2xl py-10' data-aos='slide-up'>Yes You Are Right...I am React Buff </h1>
+            <h1 className='text-white font-bold text-4xl md:text-2xl py-10' data-aos='slide-down'>Yes You Are Right...I am React Buff </h1>
           </div>
           <div className='md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 '>
             <div className='h-80' data-aos="zoom-in" data-aos-duration="2500">
@@ -119,17 +119,17 @@ function Home() {
             </h1>
           </div>
           <div className='h-screen relative'>
-            <div className='h-full'>
+            <div className='h-full md:h-fit'>
               <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_gsp8bvo7.json"
                 background="transparent"
                 speed="1"
                 loop
                 autoplay></lottie-player>
             </div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-700" data-aos="zoom-in" data-aos-duration="2500">
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-700 md:-mt-96" data-aos="zoom-in" data-aos-duration="2500">
               <h1 className='text-2xl font-bold text-left w' >Hai,Hello....
               <hr />
-              <pre className='text-xl my-5 font-mont'>
+              <pre className='text-xl md:text-l my-5 font-mont'>
                 {JSON.stringify({
                   name : "Abdulla Jaseem",
                   place : "Palakkad",
