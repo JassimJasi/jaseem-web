@@ -28,7 +28,7 @@ function Home() {
             <div className='font-bold px-5 text-white md:px-5 md:border-0 border-l-4 border-white md:text-center' data-aos="fade-left">
 
               <h1 className='text-6xl md:text-4xl' data-aos='slide-right'>Hi , I am <br /><b className='text-7xl md:text-4xl text-yellow-500'>Jaseem</b></h1>
-              <hr className='w-80' />
+              <hr className='w-60' />
               <h1 className='text-3xl md:text-xl md:mb-16' data-aos='slide-left'>FullStack <b className='text-red-500'>Developer</b></h1>
 
             </div>
