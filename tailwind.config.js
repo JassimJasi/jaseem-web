@@ -11,6 +11,9 @@ module.exports = {
       },
       fontFamily : {
         mont : ['Montserrat', 'sans-serif']
+      },
+      height: {
+        '128': '70rem',
       }
     },
     screens: {

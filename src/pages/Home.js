@@ -25,10 +25,10 @@ function Home() {
               ></lottie-player>
             </div>
 
-            <div className='font-bold px-5 text-white md:px-5 md:border-0 border-l-4 border-white md:text-center' data-aos="fade-left">
+            <div className='font-bold px-5 text-white md:px-5 md:-mt-16 md:border-0 border-l-4 border-white md:text-center' data-aos="fade-left">
 
               <h1 className='text-6xl md:text-4xl' data-aos='slide-right'>Hi , I am <br /><b className='text-7xl md:text-4xl text-yellow-500'>Jaseem</b></h1>
-              <hr className='w-60' />
+              <hr className='w-72' />
               <h1 className='text-3xl md:text-xl md:mb-16' data-aos='slide-left'>FullStack <b className='text-red-500'>Developer</b></h1>
 
             </div>
@@ -72,7 +72,7 @@ function Home() {
 
         <div className='my-20'>
           <div className='h-52 bg-green-400 text-center'>
-            <h1 className='text-4xl md:text-2xl font-bold  text-white py-10 ' data-aos='slide-down'>My Dev Stack</h1>
+            <h1 className='text-4xl md:text-2xl font-bold  text-white py-10 ' data-aos='slide-up'>My Dev Stack</h1>
           </div>
           <div className='md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 ' data-aos="zoom-in" data-aos-duration="2500">
             <div className='h-80'>
@@ -118,15 +118,16 @@ function Home() {
               Who is Jaseem
             </h1>
           </div>
-          <div className='h-screen relative'>
-            <div className='h-full md:h-fit'>
+          
+          <div className='h-screen relative md:h-full'>
+            <div className='h-full md:h-max'>
               <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_gsp8bvo7.json"
                 background="transparent"
                 speed="1"
                 loop
                 autoplay></lottie-player>
             </div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-700 md:-mt-96" data-aos="zoom-in" data-aos-duration="2500">
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-700" data-aos="zoom-in" data-aos-duration="2500">
               <h1 className='text-2xl font-bold text-left w' >Hai,Hello....
               <hr />
               <pre className='text-xl md:text-l my-5 font-mont'>
