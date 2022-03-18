@@ -22,13 +22,14 @@ function Project() {
       </div>
 
       <div className="grid mt-20 md:grid-cols-1 grid-cols-3 items-center justify-center gap-10 mx-20 md:mx-5">
-        {projectsData.map((project=>{
+        {projectsData.map((project => {
           return <div>
             <div className='relative p-10 border-2 border-projectPage rounded-tl-3xl rounded-br-3xl text-center'>
-              <img src={project.image}  className='w-full h-52' alt="" />
+              <img src={project.image} className='w-full h-52' alt="" />
               <div className='absolute inset-0 flex flex-col items-center justify-center opacity-0 bg-black text-white hover:opacity-80'>
                 <h1 className='text-3xl font-semibold'>{project.title}</h1>
-                <button className='border-2 border-white py-2 px-5 hover:bg-green-400 rounded-xl mt-5'>Demo</button>
+                <a href="https://github.com/JassimJasi/Shopping-cart"><button className='border-2 border-white py-2 px-5 hover:bg-green-400 rounded-xl mt-5'>Demo</button></a>
+
               </div>
             </div>
           </div>

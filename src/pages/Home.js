@@ -1,11 +1,11 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import { FaReact, FaNodeJs, FaBootstrap, FaJsSquare, FaHtml5, FaCss3 } from 'react-icons/fa'
-import  AOS  from 'aos'
+import AOS from 'aos'
 
 AOS.init({
-  duration:1000
-}); 
+  duration: 1000
+});
 function Home() {
   return (
     <Layout>
@@ -118,7 +118,7 @@ function Home() {
               Who is Jaseem
             </h1>
           </div>
-          
+
           <div className='h-screen relative md:h-full'>
             <div className='h-full md:h-max'>
               <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_gsp8bvo7.json"
@@ -129,15 +129,15 @@ function Home() {
             </div>
             <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-700" data-aos="zoom-in" data-aos-duration="2500">
               <h1 className='text-2xl font-bold text-left w' >Hai,Hello....
-              <hr />
-              <pre className='text-xl md:text-l my-5 font-mont'>
-                {JSON.stringify({
-                  name : "Abdulla Jaseem",
-                  place : "Palakkad",
-                  country : "India",
-                  phone : "8848088581"
-                },null , 2)}
-              </pre>
+                <hr />
+                <pre className='text-xl md:text-l my-5 font-mont'>
+                  {JSON.stringify({
+                    name: "Abdulla Jaseem",
+                    place: "Palakkad",
+                    country: "India",
+                    phone: "8848088581"
+                  }, null, 2)}
+                </pre>
               </h1>
             </div>
           </div>
