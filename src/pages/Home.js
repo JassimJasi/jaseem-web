@@ -25,7 +25,7 @@ function Home() {
               ></lottie-player>
             </div>
 
-            <div className='font-bold px-5 text-white md:px-5 md:-mt-16 md:border-0 border-l-4 border-white md:text-center' data-aos="fade-left">
+            <div className='font-bold px-5 text-white md:px-5 md:-mt-20 md:border-0 border-l-4 border-white md:text-center' data-aos="fade-left">
 
               <h1 className='text-6xl md:text-4xl' data-aos='slide-right'>Hi , I am <br /><b className='text-7xl md:text-4xl text-yellow-500'>Jaseem</b></h1>
               <hr className='w-72' />

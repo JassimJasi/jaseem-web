@@ -51,6 +51,7 @@ function Header() {
                 </div>
 
                 <div className={`md:flex items-start mt-5 w-full flex-col 2xl:hidden ${showMenu}`}>
+                    <div className='m-auto'>
                     {menuItems.map((item, index2) => {
                         return (
                             <li key={index2} className={`list-none py-1 ${item.key === pathname && 'bg-white text-black rounded-md px-5'} `}>
@@ -58,6 +59,7 @@ function Header() {
                             </li>
                         );
                     })}
+                    </div>
                 </div>
             </div>
         </div>
