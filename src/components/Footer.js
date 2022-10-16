@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaChrome } from 'react-icons/fa'
+import './footer.css'
 
 function Footer() {
     return (
@@ -16,12 +17,12 @@ function Footer() {
                         <p className='text-gray-100 pb-3'>Designed and Developed By</p>
                         <div className="h-1 border-2 border-gray-400 border-dotted">
                         </div>
-                        <div className='flex text-gray-50 w-full justify-between py-3 '>
-                            <a href="https://jaseem.vercel.app/resume"><FaChrome className='cursor-pointer' /></a>
-                            <a href="https://m.facebook.com/profile.php?id=100002780076781"><FaFacebook className='cursor-pointer' /></a>
-                            <a href="https://www.instagram.com/jassimjasi/?hl=en"><FaInstagram className='cursor-pointer' /></a>
-                            <a href="https://www.linkedin.com/in/abdullajaseem/"><FaLinkedin className='cursor-pointer' /></a>
-                            <a href="https://github.com/JassimJasi"><FaGithub className='cursor-pointer' /></a>
+                        <div className=' flex text-gray-50 w-full justify-between py-3 '>
+                            <a href="https://jaseem.vercel.app/resume"><FaChrome className='cursor-pointer footerLogo' /></a>
+                            <a href="https://m.facebook.com/profile.php?id=100002780076781"><FaFacebook className='cursor-pointer footerLogo' /></a>
+                            <a href="https://www.instagram.com/jassimjasi/?hl=en"><FaInstagram className='cursor-pointer footerLogo' /></a>
+                            <a href="https://www.linkedin.com/in/abdullajaseem/"><FaLinkedin className='cursor-pointer footerLogo' /></a>
+                            <a href="https://github.com/JassimJasi"><FaGithub className='cursor-pointer footerLogo' /></a>
                         </div>
                         <div className="h-1 border-2 border-gray-400 border-dotted">
                         </div>

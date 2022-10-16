@@ -28,7 +28,7 @@ function Header() {
             <div className='text-white font-mont fixed top-0 left-0 right-0 z-50'>
                 <div className={`flex bg-theme justify-between items-center p-2 shadow-lg ${showMenu === '' && 'md:flex-col'}`}>
                     <div className='flex justify-between items-center w-full'>
-                        <Link to="/"><h1 className='text-4xl font-semibold cursor-pointer hover:text-blue-500'>Jaseem</h1></Link>
+                        <Link to="/"><h1 className='text-4xl mx-4 font-semibold cursor-pointer hover:text-blue-500'>Jaseem</h1></Link>
 
                         <FaBars onClick={() => {
                             if (showMenu === 'md:hidden') {

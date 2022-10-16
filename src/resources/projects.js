@@ -3,7 +3,7 @@ const projectsData = [
         title: "Shopping Cart",
         image: "./image/ecommerce.svg",
         description: "An ecommerce application developed using Node js, mongoDB, HTML, CSS, JavaScript",
-        link : "/"
+        link : "https://drcrptr.shop/"
     },
     {
         title: "Coming Soon",
