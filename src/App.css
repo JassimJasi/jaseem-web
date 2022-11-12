@@ -1,0 +1,10 @@
+.loader {
+  background: rgb(170, 170, 170);
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+::-webkit-scrollbar {
+  display: none;
+}
