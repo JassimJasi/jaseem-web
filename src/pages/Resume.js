@@ -19,7 +19,7 @@ function Resume() {
             {/* <Document file="./pdf/JaseemResume.pdf" onLoadSuccess={onDocumentLoadSuccess} >
         <Page className="bg-gray-800 shadow-6xl rounded-md h-fit " height={580} pageNumber={pageNumber} /> </Document> */}
             <embed
-              src="./image/JaseemResume.pdf"
+              src="./image/AbdullaJaseem.pdf"
               alt="Please reload"
               //className="h-full "
               type="application/pdf"
@@ -27,7 +27,7 @@ function Resume() {
               width={700}
             />
             <a
-              href="./image/JaseemResume.pdf"
+              href="./image/AbdullaJaseem.pdf"
               download
               className="grid mt-4 md:m-3 place-items-center"
             >
